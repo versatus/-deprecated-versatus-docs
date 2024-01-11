@@ -1,6 +1,9 @@
 {
-    "rust": "Rust"
+    "rust": "Rust",
     "javascript": "Javascript",
     "go": "Go",
     "cpp": "C++",
+    "testing": "Testing Smart Contracts",
+    "publishing": "Publishing Smart Contracts",
+    "executing": "Executing Smart Contracts"
 }
