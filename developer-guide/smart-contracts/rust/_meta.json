@@ -1,4 +1,5 @@
 {
-    "toolchain": "Dependencies and Toolchain"
-    "building": "Building Smart Contracts"
+  "toolchain": "Dependencies and Toolchain"
+  "developing": "Developing Smart Contracts"
+  "building": "Building Smart Contracts"
 }

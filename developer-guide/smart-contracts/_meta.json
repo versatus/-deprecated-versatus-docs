@@ -1,9 +1,11 @@
 {
-    "rust": "Rust",
-    "javascript": "Javascript",
-    "go": "Go",
-    "cpp": "C++",
-    "testing": "Testing Smart Contracts",
-    "publishing": "Publishing Smart Contracts",
-    "executing": "Executing Smart Contracts"
+  "introduction": "Introduction",
+  "rust": "Rust",
+  "javascript": "Javascript",
+  "go": "Go",
+  "cpp": "C++",
+  "testing": "Testing Smart Contracts",
+  "publishing": "Publishing Smart Contracts",
+  "executing": "Executing Smart Contracts",
+  "additional": "Additional Notes"
 }
