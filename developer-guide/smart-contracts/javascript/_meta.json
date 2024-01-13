@@ -1,1 +1,6 @@
-{ "toolchain": "Dependencies and Toolchain" }
+
+{
+  "toolchain": "Dependencies and Toolchain",
+  "developing": "Developing Smart Contracts",
+  "building": "Building Smart Contracts"
+}
