@@ -33,7 +33,7 @@ In a blockchain ecosystem that is becoming increasingly fragmented, the ability 
 
 Unlike other projects, we won’t pigeonhole you into a certain or limited range of languages or a single chain. There is no Web3 prerequisite or steep learning curve. Rather than struggling with new languages and tools, our developers can focus on innovating their dApps.
 
-### To get started building on Versatus, start `[here](https://docs.versatus.io/developer-guide/smart-contracts/introduction/overview)`
+### To get started building on Versatus, start [here](https://docs.versatus.io/developer-guide/smart-contracts/introduction/overview)
 
 
 
