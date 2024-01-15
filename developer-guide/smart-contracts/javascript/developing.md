@@ -34,13 +34,13 @@ const start = (input) => {
 export default start
 ```
 
-Now lets build the contract. This will create a `build.wasm` file in the root of your project.
+Now lets build the contract. This will create a `build.wasm` file in a `/dist` folder in the root of your project.
 
 ```bash
 npx vsjs build example-contract.js
 ```
 
-Now lets test the contract against the Versatus WASM runtime. This leverages some of the inputs in the `inputs` directory. This command will fetch the `versa.wasm` file required by your system to test Versatus-based smart contracts.  
+Now lets test the contract against the Versatus WASM runtime. This command will fetch the `versa.wasm` file required by your system to test Versatus-based smart contracts and test the contract against the provided json file in the command. You can use any of the json files provided during the `npx vsjs init erc-20` commands.  
 
 ```bash
 npx vsjs test .inputs/sample-erc20-contract-name.json 
