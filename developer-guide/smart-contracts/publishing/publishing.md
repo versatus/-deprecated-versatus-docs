@@ -25,3 +25,6 @@ dev@versatus:~/src/versatus-erc20$ ./versatus-wasm publish
 Content ID for Web3 Package is bafyreibm74yylrtyre2tqnhhabz5vixzogjyoff4ed5xbw2vouiqn4yu6e
 dev@versatus:~/src/versatus-erc20$
 ```
+
+Once your contract has been published, you can use any IPFS- or IPLD-capable browser or explorer to see your contract by its content ID. For example, (https://explore.ipld.io/#/explore/bafyreibm74yylrtyre2tqnhhabz5vixzogjyoff4ed5xbw2vouiqn4yu6e). Note that in some cases, it can take 60 seconds or more for it to be visible across the _whole_ IPFS network.
+
