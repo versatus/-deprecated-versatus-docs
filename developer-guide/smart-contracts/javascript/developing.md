@@ -40,10 +40,10 @@ Now lets build the contract. This will create a `build.wasm` file in a `/dist` f
 npx vsjs build example-contract.js
 ```
 
-Now lets test the contract against the Versatus WASM runtime. This command will fetch the `versa.wasm` file required by your system to test Versatus-based smart contracts and test the contract against the provided json file in the command. You can use any of the json files provided during the `npx vsjs init erc-20` commands.  
+Now lets test the contract against the Versatus WASM runtime. This command will fetch the `versa.wasm` file required by your system to test Versatus-based smart contracts and test the contract against the provided json file in the command. You can use any of the json files provided during the `npx vsjs init erc-20` command.  
 
 ```bash
-npx vsjs test .inputs/sample-erc20-contract-name.json 
+npx vsjs test inputs/sample-erc20-contract-name.json 
 ```
 
 Here's the output you should see:
