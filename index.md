@@ -12,22 +12,31 @@
   <img alt="VRRB Logo" src="https://github.com/versatus/brand-assets/blob/33cf3981d13f439a43ddfde5966a8a5fd58ff5ce/logo/versatus_logo_white.png">
 </picture>
 
-Versatus is a fast, scalable Layer 1 blockchain truly designed for mass adoption.
-Versatus is powered by a novel consensus mechanism called Proof-of-Claim, which
-features dual-scalability for record-breaking TPS and fast time to finality.
-Versatus offers a flexible, composable and safe, (programming) language agnostic
-compute platform powered by unikernel containers. The Versatus compute platform
-takes web3 beyond the paradigm of ownership, tokenization and event
-triggered transfers, offering a decentralized general execution environment
-that can deliver on the promise of a decentralized internet and financial
+### Welcome
 
-Versatus provides the most flexible developer experience available on any
-smart contract platform, allowing developers to build in any language they
-choose. Beyond language agnosticism, Versatus programs are secure by design,
-allowing developers to spend more time thinking about building core
-business logic and design. This provides developers with shorter roadmaps,
-lower audit costs, leads to fewer bugs, less maintenance, and ultimately,
-will lead to better end user experiences.
+Hey builders, welcome to the Versatus family where every line of code contributes to a larger vision – one where development is intuitive, accessible, and empowering. We know building smart contracts and decentralized applications in Web3 can seem complicated, exclusive, and exhaustive as a developer. That’s because currently, it is. But it doesn’t have to be that way, and it definitely won’t stay that way with Versatus.
+
+### Who We Are
+
+Versatus is the Universal Decentralized Application (dApp) Engine that allows all developers to truly build without barriers.
+
+### Why Build on Versatus
+
+### Flexibility
+Developers can build smart contracts in familiar programming languages such as Rust, JavaScript, Go, C++, Python, C, and more. Eliminating the barriers to entry in blockchain development invites a wider pool of talent and doing so breeds familiarity efficiency and creativity, leading to more quality and diverse applications.
+
+### Cross-Chain Settlement
+In a blockchain ecosystem that is becoming increasingly fragmented, the ability to interact across different chains is invaluable. Versatus provides the necessary infrastructure for their developers to integrate contracts on their blockchain network(s) of choice.
+
+### Scalability
+ By allowing off-chain execution of smart contracts, Versatus developers benefit from reduced operational costs, improved scalability, and overall enhanced dApp performance and user experience. 
+
+Unlike other projects, we won’t pigeonhole you into a certain or limited range of languages or a single chain. There is no Web3 prerequisite or steep learning curve. Rather than struggling with new languages and tools, our developers can focus on innovating their dApps.
+
+### To get started building on Versatus, start `[here](https://docs.versatus.io/developer-guide/smart-contracts/introduction/overview)`
+
+
+
 <br>
 
 <hr>
@@ -40,9 +49,6 @@ will lead to better end user experiences.
 <hr>
 <br>
 
-Versatus is a permissionless network, be they operators, developers, users or
-some combination thereof, Versatus is decentralized, censorship resistant and
-accessible to anyone with an internet connection.
 
 <br>
 <hr>
