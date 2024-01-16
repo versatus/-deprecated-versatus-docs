@@ -6,6 +6,7 @@ Set up Emscripten on your system by following the `[Emscripten Installation Guid
 
 Compile Your Contract
 Compile your C code to WASM using Emscripten. In your project directory, run:
+
 `emcc -std=c99 -I/usr/local/include -o contract.wasm main.c -L/usr/local/lib -ljson-c`
 
 Replace`main.c` with the path to your C source file. The output `contract.wasm` is your compiled smart contract.
