@@ -40,5 +40,5 @@ Unlike other projects, we won’t pigeonhole you into a certain or limited range
 
 ### Get Started Building on Versatus
 If you are keen to build on Versatus, apply to our [BetaNet Developer Program](https://versatus.io/apply#application-form). All developers are welcome, no blockchain experience necessary. 
-Once accepted, you can start with the [Smart Contracts Developer Guide](https://docs.versatus.io/developer-guide/smart-contracts/introduction/overview) and [Reference Guide](https://docs.versatus.io/reference-guide/versatus-wasm-command-reference)
+Once accepted, you can start with our [Smart Contracts Developer Guide](https://docs.versatus.io/developer-guide/smart-contracts/introduction/overview) and [Reference Guide](https://docs.versatus.io/reference-guide/versatus-wasm-command-reference).
 
