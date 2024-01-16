@@ -1,4 +1,4 @@
-# versatus-wasm Command Line Reference
+# Versatus-wasm Command Line Reference
 
 ## Name
 
