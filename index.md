@@ -1,4 +1,10 @@
-<p align="center">
+<p align="center flex flex-row items-center justify-center" style="
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+">
     <a href="https://discord.gg/versatus" alt="Discord">
         <img src="https://img.shields.io/discord/1034112774789414963.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2&style=for-the-badge" />
     </a>
