@@ -1,4 +1,8 @@
 {
+    "index": "Home",
+    "README":   {
+        "display": "hidden"
+    },
     "developer-guide": "Versatus Developers Guide",
     "reference-guide": "Versatus Reference Guide"
 }

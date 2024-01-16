@@ -8,8 +8,7 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/versatus/brand-assets/blob/33cf3981d13f439a43ddfde5966a8a5fd58ff5ce/logo/versatus_logo_white.png">
-  <img alt="VRRB Logo" src="https://github.com/versatus/brand-assets/blob/33cf3981d13f439a43ddfde5966a8a5fd58ff5ce/logo/versatus_logo_white.png">
+  <img alt="VRRB Logo" src="https://raw.githubusercontent.com/versatus/brand-assets/33cf3981d13f439a43ddfde5966a8a5fd58ff5ce/logo/versatus_logo_white.png">
 </picture>
 
 ### Welcome
@@ -29,7 +28,7 @@ Developers can build smart contracts in familiar programming languages such as R
 In a blockchain ecosystem that is becoming increasingly fragmented, the ability to interact across different chains is invaluable. Versatus provides the necessary infrastructure for their developers to integrate contracts on their blockchain network(s) of choice.
 
 ### Scalability
- By allowing off-chain execution of smart contracts, Versatus developers benefit from reduced operational costs, improved scalability, and overall enhanced dApp performance and user experience. 
+By allowing off-chain execution of smart contracts, Versatus developers benefit from reduced operational costs, improved scalability, and overall enhanced dApp performance and user experience.
 
 Unlike other projects, we won’t pigeonhole you into a certain or limited range of languages or a single chain. There is no Web3 prerequisite or steep learning curve. Rather than struggling with new languages and tools, our developers can focus on innovating their dApps.
 
