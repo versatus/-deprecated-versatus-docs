@@ -14,7 +14,7 @@ npx vsjs init erc-20
 This command will add a new `example-contract.js` file to the root of your project along with an inputs directory which will help test the contract against the Versatus WASM runtime.
 
 ```javascript
-import { ERC20Contract } from '@versatus/versatus-javascript/lib/contracts';
+import { ERC20Contract } from '@versatus/versatus-javascript';
 
 const ERC_20_CONTRACT_NAME = 'Versatus ERC20'
 const ERC_20_CONTRACT_SYMBOL = 'VRSTSERC'
@@ -40,7 +40,7 @@ Now lets build the contract. This will create a `build.wasm` file in a `/dist` f
 npx vsjs build example-contract.js
 ```
 
-Now lets test the contract against the Versatus WASM runtime. This command will fetch the `versa.wasm` file required by your system to test Versatus-based smart contracts and test the contract against the provided json file in the command. You can use any of the json files provided during the `npx vsjs init erc-20` command.  
+Now lets test the contract against the Versatus WASM runtime. This command will fetch the `versa.wasm` file required by your system to test Versatus-based smart contracts against the json file provided as an argument. You can use any of the json files provided during the `npx vsjs init erc-20` command.  
 
 ```bash
 npx vsjs test inputs/sample-erc20-contract-name.json 
