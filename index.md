@@ -31,7 +31,7 @@ Versatus is the Universal Decentralized Application (dApp) Engine that allows al
 Developers can build smart contracts in familiar programming languages such as Rust, JavaScript, Go, C++, Python, C, and more. Eliminating the barriers to entry in blockchain development invites a wider pool of talent and doing so breeds familiarity efficiency and creativity, leading to more quality and diverse applications.
 
 ### Cross-Chain Settlement
-In a blockchain ecosystem that is becoming increasingly fragmented, the ability to interact across different chains is invaluable. Versatus provides the necessary infrastructure for their developers to integrate contracts on their blockchain network(s) of choice.
+In a blockchain ecosystem that is becoming increasingly fragmented, the ability to interact across different chains is invaluable. Versatus provides the necessary infrastructure for their developers to integrate contracts on their blockchain networks and communities of choice.
 
 ### Scalability
 By allowing off-chain execution of smart contracts, Versatus developers benefit from reduced operational costs, improved scalability, and overall enhanced dApp performance and user experience.
