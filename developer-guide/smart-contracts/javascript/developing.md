@@ -3,7 +3,7 @@
 To use this package to develop a smart contract with javascript, start by installing the `@versatus/versatus-javascript` package in your project:
 
 ```bash
-yarn install @versatus/versatus-javascript
+yarn add @versatus/versatus-javascript
 ```
 
 Lets initialize a new erc-20 contract to understand how to use the package.
