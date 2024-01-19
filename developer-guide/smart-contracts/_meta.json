@@ -7,5 +7,6 @@
   "testing": "Testing Smart Contracts",
   "publishing": "Publishing Smart Contracts",
   "executing": "Executing Smart Contracts",
+  "internals": "Smart Contract Internals",
   "additional": "Additional Notes"
 }
