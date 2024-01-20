@@ -35,12 +35,43 @@ And descriptions of the above attributes:
 The `AccountInfo` structure used in the `accountInfo` field above is as follows:
 ```json
 {
-    "namespace",
-    "programs",
-    "metadata",
-    "data"
+    "programNamespace": "<string>",
+    "linkedPrograms": { "<key>": ""<LinkedProgram>"} },
+    "data": "<string>"
 }
 ```
+
+Descriptions of the above attributes:
+
+* `programNamespace` -- A string representing the name within a namespace for this program. A program is the quivalent of a contract, but may include other types of executable job later.
+* `linkedPrograms` -- References to other programs/contracts that are related to this program/contract.
+* `data` -- Arbitrary opaque data owned and used by the account holder
+* `key` -- The key is the same value as in the `programId` in the `LinkedProgram` structure below.
+
+### LinkedProgram Structure
+```json
+{
+    "programId": "<string>",
+    "ownerId": "<address>",
+    "balance": "<uint256>",
+    "tokenIds": "[<???>]",
+    "allowance": "[ (<address>, <balance>) ]",
+    "approvals": "[<address>]",
+    "data": "<string>",
+    "status": "<int>",
+}
+```
+
+Descriptions of the above attributes:
+
+* `programId` -- A string identifier within the developer's namespace to identify a program/contract that this program/contract is linked to.
+* `ownerId` -- The address of the owner of the linked program/contract.
+* `balance` -- The balance of the linked program.
+* `tokenIds` -- A list/vector of token IDs maintained by this program/contract
+* `allowance` -- A list/vector of allowances that this program/contract is authorised to spend. An allowance is a key and value representing an owner address and a balance.
+* `approvals` -- A list/vector of approvals that this program/contract is authorised for. An approval is a spender address and value.
+* `data` -- Arbitrary opaque data owned and used by the account holder.
+* `status` -- The status of the program/contract. Possible values are.... 
 
 ## Sample JSON
 
@@ -50,29 +81,27 @@ Here is a somewhat complete example containing some sample data, as an illustrat
 {
   "version": 1,
   "accountInfo": {
-    "namespace": "0x0123456789abcdef0123456789abcdef01234567",
-    "programs": {
-      "0x0123456789abcdef0123456789abcdef01234567": {
-        "programId": "0x0123456789abcdef0123456789abcdef01234567",
+    "programNamespace": "versatus.contract.escrow",
+    "linkedPrograms": {
+      "versatus.contract.swap": {
+        "programId": "versatus.contract.swap",
         "ownerId": "0x0123456789abcdef0123456789abcdef01234567",
-        "balance": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
-        "metadata": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "balance": "987543856732489734298472",
         "tokenIds": [
           "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
           "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
         ],
         "allowance": {
-          "0x0123456789abcdef0123456789abcdef01234567": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+          "0x0123456789abcdef0123456789abcdef01234567": "98795837957435983"
         },
         "approvals": {
-          "0x0123456789abcdef0123456789abcdef01234567": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+          "0x0123456789abcdef0123456789abcdef01234567": "98798754935739854"
         },
-        "data": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "data": "VmVyc2F0dXMgTGFicyBGb3IgVGhlIFdpbiEK",
         "status": "0x0123"
       }
     },
-    "metadata": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
-    "data": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    "data": "VmVyc2F0dXMgTGFicyBDaGFuZ2luZyBUaGUgR2FtZSEK"
   } 
   "function": "revoke",
   "inputs": {

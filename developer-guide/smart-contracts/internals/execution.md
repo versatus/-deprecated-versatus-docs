@@ -1,6 +1,6 @@
 # Smart Contract Execution
 
-The WASM smart contract runtime will load and execute a single WASM binary as a smart contract. It does not handle separate modules or dependencies in anyway today, but may in the future as the need arises and certain standards are ratified and become widely supported by compilers.
+The WASM smart contract runtime will load and execute a single WASM binary as a smart contract. It does not handle separate modules, dynamic linking or dependencies in anyway today, but may in the future as the need arises and certain standards are ratified and become widely supported by compilers.
 
 The entry point into every smart contract is the `_start` symbol. It is called with no arguments and returns an integer return code. This makes it very similar to the following `main()` function definition in C:
 
