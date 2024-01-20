@@ -36,7 +36,7 @@ The `AccountInfo` structure used in the `accountInfo` field above is as follows:
 ```json
 {
     "programNamespace": "<string>",
-    "linkedPrograms": { "<key>": ""<LinkedProgram>"} },
+    "linkedPrograms": { "<key>": "<LinkedProgram>"},
     "data": "<string>"
 }
 ```
@@ -54,11 +54,11 @@ Descriptions of the above attributes:
     "programId": "<string>",
     "ownerId": "<address>",
     "balance": "<uint256>",
-    "tokenIds": "[<???>]",
+    "tokenIds": "[<uint256>],
     "allowance": "[ (<address>, <balance>) ]",
     "approvals": "[<address>]",
     "data": "<string>",
-    "status": "<int>",
+    "status": "<enum int>",
 }
 ```
 
@@ -71,7 +71,7 @@ Descriptions of the above attributes:
 * `allowance` -- A list/vector of allowances that this program/contract is authorised to spend. An allowance is a key and value representing an owner address and a balance.
 * `approvals` -- A list/vector of approvals that this program/contract is authorised for. An approval is a spender address and value.
 * `data` -- Arbitrary opaque data owned and used by the account holder.
-* `status` -- The status of the program/contract. Possible values are.... 
+* `status` -- The status of the program/contract. It is an enum of a handful of specific possible states/values.
 
 ## Sample JSON
 
