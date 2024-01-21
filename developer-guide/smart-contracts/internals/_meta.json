@@ -3,5 +3,6 @@
   "index": "Index",
   "compilation": "Compilation Target",
   "execution": "Contract Execution",
-  "input_data": "Input Data"
+  "input_data": "Input Data",
+  "output_data": "Output Data"
 }
