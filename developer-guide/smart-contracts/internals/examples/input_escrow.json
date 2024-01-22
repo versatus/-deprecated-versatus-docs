@@ -23,8 +23,8 @@
     },
     "data": "VmVyc2F0dXMgTGFicyBDaGFuZ2luZyBUaGUgR2FtZSEK"
   }, 
-  "function": "revoke",
-  "inputs": {
+  "programFunction": "revoke",
+  "programInputs": {
     "escrowNamespace": "namespace.of.escrow.contract.account",
     "depositId": "0xdead00000000000000000000000000000000000000000000000000000000beef",
     "depositorAddress":"0x0000000000000000000000000000000000030301",
