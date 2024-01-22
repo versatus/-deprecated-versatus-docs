@@ -18,8 +18,8 @@ The structure of the JSON input is as follows:
 {
     "version": "<int>",
     "accountInfo": "<AccountInfo>",
-    "function": "<string>",
-    "inputs": "<JSON>"
+    "programFunction": "<string>",
+    "programInputs": "<JSON>"
 }
 ```
 
@@ -27,8 +27,8 @@ And descriptions of the above attributes:
 
 * `version` -- The version of the schema of this JSON input object. Currently always 1.
 * `accountInfo` -- An object containing information from the blockchain about the account associated with this contract. This is prepopulated by the Versatus Network Protocol before a contract is executed. The data structure itself is documented below.
-* `function` -- The contract function to enact. This will often map to specific in-language functions in the case of common contract types (for example, the string "transfer" might cause a contract to call a Rust function called `transfer()` in an ERC20 contract implementation for example). This is a convenience, however, and not a hard requirement.
-* `inputs` -- The inputs to that contract as JSON (see the example below). In the case of well-known contract types, such as fungible and non-fungible tokens, Versatus has provided data structures and helper code to be able to parse and manipulate these using the constructs of your chosen language. However, this data is defined by the contract developer, along with the developer-maintained schema definition, and passed in when the contract is executed.
+* `programFunction` -- The contract function to enact. This will often map to specific in-language functions in the case of common contract types (for example, the string "transfer" might cause a contract to call a Rust function called `transfer()` in an ERC20 contract implementation for example). This is a convenience, however, and not a hard requirement.
+* `programInputs` -- The inputs to that contract as JSON (see the example below). In the case of well-known contract types, such as fungible and non-fungible tokens, Versatus has provided data structures and helper code to be able to parse and manipulate these using the constructs of your chosen language. However, this data is defined by the contract developer, along with the developer-maintained schema definition, and passed in when the contract is executed.
 
 ### AccountInfo Structure
 
