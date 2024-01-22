@@ -54,7 +54,7 @@ Descriptions of the above attributes:
     "programId": "<string>",
     "ownerId": "<address>",
     "balance": "<uint256>",
-    "tokenIds": "[<uint256>],
+    "tokenIds": "[<uint256>]",
     "allowances": "[ (<address>, <balance>) ]",
     "approvals": "[<address>]",
     "data": "<string>",
