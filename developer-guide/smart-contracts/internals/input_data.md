@@ -102,7 +102,7 @@ Here is a somewhat complete example containing some sample data, as an illustrat
       }
     },
     "data": "VmVyc2F0dXMgTGFicyBDaGFuZ2luZyBUaGUgR2FtZSEK"
-  } 
+  }, 
   "function": "revoke",
   "inputs": {
     "escrowNamespace": "namespace.of.escrow.contract.account",
