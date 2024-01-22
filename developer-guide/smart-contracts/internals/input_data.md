@@ -106,7 +106,7 @@ Here is a somewhat complete example containing some sample data, as an illustrat
   "function": "revoke",
   "inputs": {
     "escrowNamespace": "namespace.of.escrow.contract.account",
-    "depositId": "Some(0xdead00000000000000000000000000000000000000000000000000000000beef",
+    "depositId": "0xdead00000000000000000000000000000000000000000000000000000000beef",
     "depositorAddress":"0x0000000000000000000000000000000000030301",
     "timestamp": "0x65a9c7a0",
     "maturity": "0x65a9c1aa"
