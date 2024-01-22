@@ -55,7 +55,7 @@ Descriptions of the above attributes:
     "ownerId": "<address>",
     "balance": "<uint256>",
     "tokenIds": "[<uint256>],
-    "allowance": "[ (<address>, <balance>) ]",
+    "allowances": "[ (<address>, <balance>) ]",
     "approvals": "[<address>]",
     "data": "<string>",
     "status": "<enum int>",
@@ -68,7 +68,7 @@ Descriptions of the above attributes:
 * `ownerId` -- The address of the owner of the linked program/contract.
 * `balance` -- The balance of the linked program.
 * `tokenIds` -- A list/vector of token IDs maintained by this program/contract
-* `allowance` -- A list/vector of allowances that this program/contract is authorised to spend. An allowance is a key and value representing an owner address and a balance.
+* `allowances` -- A list/vector of allowances that this program/contract is authorised to spend. An allowance is a key and value representing an owner address and a balance.
 * `approvals` -- A list/vector of approvals that this program/contract is authorised for. An approval is a spender address and value.
 * `data` -- Arbitrary opaque data owned and used by the account holder.
 * `status` -- The status of the program/contract. It is an enum of a handful of specific possible states/values.
@@ -91,7 +91,7 @@ Here is a somewhat complete example containing some sample data, as an illustrat
           "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
           "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
         ],
-        "allowance": {
+        "allowances": {
           "0x0123456789abcdef0123456789abcdef01234567": "98795837957435983"
         },
         "approvals": {
