@@ -71,7 +71,7 @@ Descriptions of the above attributes:
 * `allowances` -- A list/vector of allowances that this program/contract is authorised to spend. An allowance is a key and value representing an owner address and a balance.
 * `approvals` -- A list/vector of approvals that this program/contract is authorised for. An approval is a spender address and value.
 * `data` -- Arbitrary opaque data owned and used by the account holder.
-* `status` -- The status of the program/contract. It is an enum of a handful of specific possible states/values.
+* `status` -- The status of the program/contract. It is an enum that can currently be `Locked` or `Free`.
 
 ## Sample JSON
 
@@ -98,7 +98,7 @@ Here is a somewhat complete example containing some sample data, as an illustrat
           "0x0123456789abcdef0123456789abcdef01234567": "98798754935739854"
         },
         "data": "VmVyc2F0dXMgTGFicyBGb3IgVGhlIFdpbiEK",
-        "status": "0x0123"
+        "status": "Free"
       }
     },
     "data": "VmVyc2F0dXMgTGFicyBDaGFuZ2luZyBUaGUgR2FtZSEK"
