@@ -39,6 +39,6 @@ By allowing off-chain execution of smart contracts, Versatus developers benefit 
 Unlike other projects, we won’t pigeonhole you into a certain or limited range of languages or a single chain. There is no Web3 prerequisite or steep learning curve. Rather than struggling with new languages and tools, our developers can focus on innovating their dApps.
 
 ### Get Started Building on Versatus
-If you are keen to build on Versatus, apply to our [BetaNet Developer Program](https://versatus.io/apply#application-form). All developers are welcome, no blockchain experience necessary. 
+If you are keen to build on Versatus, apply to our [BetaNet Developer Program](https://form.jotform.com/240448893750162). All developers are welcome, no blockchain experience necessary. 
 Once accepted, you can start with our [Smart Contracts Developer Guide](https://docs.versatus.io/developer-guide/smart-contracts/introduction/overview) and [Reference Guide](https://docs.versatus.io/reference-guide/versatus-wasm-command-reference).
 
